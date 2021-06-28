@@ -16,7 +16,7 @@ Data for Kolkata reported by [Srinivasan Ramani and Vignesh Radhakrishnan in the
 
 Data for Madhya Pradesh reported by [by Rukmini S in Scroll](https://scroll.in/article/996772/madhya-pradesh-saw-nearly-three-times-more-deaths-than-normal-after-second-wave-of-covid-19-struck).
 
-Data for Mumbai from [Ariel Karlinsky on github](https://github.com/akarlinsky/world_mortality/tree/main/local_mortality).
+Monthly data for Mumbai from [Ariel Karlinsky on github](https://github.com/akarlinsky/world_mortality/tree/main/local_mortality); yearly data from [MCGM vital statistics report](https://portal.mcgm.gov.in/irj/portal/anonymous/qlvitalstatsreport?guest_user=english).
 
 Data for Tamil Nadu reported by [Rukmini S in Scroll](https://scroll.in/article/997427/andhra-pradesh-saw-400-increase-in-deaths-in-may-tamil-nadu-saw-more-modest-excess-mortality).
 
