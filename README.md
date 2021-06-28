@@ -12,6 +12,8 @@ Data for Chennai reported by [Rukmini S in The Hindu](https://www.thehindu.com/o
 
 Data for Hyderabad reported by [Srinivasan Ramani and Vignesh Radhakrishnan in The Hindu](https://www.thehindu.com/news/cities/Hyderabad/excess-deaths-in-hyderabad-are-10-times-the-official-covid-19-toll-for-telangana/article34807214.ece).
 
+Data for Karnataka & Bengaluru reported by [Sharath S. Srivatsa and Srinivasan Ramani in The Hindu](https://www.thehindu.com/news/national/excess-deaths-in-karnataka-nearly-six-times-official-covid-19-tally/article34870624.ece).
+
 Data for Kolkata reported by [Srinivasan Ramani and Vignesh Radhakrishnan in the Hindu](https://www.thehindu.com/news/cities/kolkata/kolkatas-covid-19-deaths-in-2021-could-be-4-times-higher/article34671165.ece).
 
 Data for Madhya Pradesh reported by [by Rukmini S in Scroll](https://scroll.in/article/996772/madhya-pradesh-saw-nearly-three-times-more-deaths-than-normal-after-second-wave-of-covid-19-struck).
