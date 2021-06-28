@@ -8,7 +8,7 @@ Data for Assam reported by [Arunabh Saikia in Scroll](https://scroll.in/article/
 
 Data for Bihar reported by [Aruveettil Mariyam Alavi for NDTV](https://www.ndtv.com/india-news/bihar-saw-nearly-75-000-unaccounted-deaths-amid-2nd-covid-wave-data-shows-2467778).
 
-Data for Chennai reported by [Rukmini S in The Hindu](https://www.thehindu.com/opinion/op-ed/interpreting-deaths-in-chennai/article34645264.ece?homepage=true).
+Data for Chennai reported by [Rukmini S in The Hindu](https://www.thehindu.com/opinion/op-ed/interpreting-deaths-in-chennai/article34645264.ece?homepage=true). More detailed daily data from 2000-2021 from [elseasama on github](https://github.com/elseasama/covid19chennai/blob/gh-pages/chennai_data/2000-2021%20deceased%20Chennai.csv)
 
 Data for Hyderabad reported by [Srinivasan Ramani and Vignesh Radhakrishnan in The Hindu](https://www.thehindu.com/news/cities/Hyderabad/excess-deaths-in-hyderabad-are-10-times-the-official-covid-19-toll-for-telangana/article34807214.ece).
 
