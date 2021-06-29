@@ -12,8 +12,9 @@ Bihar reported by [Aruveettil Mariyam Alavi for NDTV](https://www.ndtv.com/india
 
 Karnataka reported by [Sharath S. Srivatsa and Srinivasan Ramani in The Hindu](https://www.thehindu.com/news/national/excess-deaths-in-karnataka-nearly-six-times-official-covid-19-tally/article34870624.ece).
 
-Madhya Pradesh reported by [by Rukmini S in Scroll](https://scroll.in/article/996772/madhya-pradesh-saw-nearly-three-times-more-deaths-than-normal-after-second-wave-of-covid-19-struck).
+Kerala reported by [Srinivasan Ramani in The Hindu](https://www.thehindu.com/news/national/excess-deaths-in-kerala-16-times-official-covid-19-toll/article34978628.ece).
 
+Madhya Pradesh reported by [by Rukmini S in Scroll](https://scroll.in/article/996772/madhya-pradesh-saw-nearly-three-times-more-deaths-than-normal-after-second-wave-of-covid-19-struck).
 
 Tamil Nadu reported by [Rukmini S in Scroll](https://scroll.in/article/997427/andhra-pradesh-saw-400-increase-in-deaths-in-may-tamil-nadu-saw-more-modest-excess-mortality).
 
