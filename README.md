@@ -31,4 +31,4 @@ Hyderabad reported by [Srinivasan Ramani and Vignesh Radhakrishnan in The Hindu]
 
 Kolkata reported by [Srinivasan Ramani and Vignesh Radhakrishnan in the Hindu](https://www.thehindu.com/news/cities/kolkata/kolkatas-covid-19-deaths-in-2021-could-be-4-times-higher/article34671165.ece).
 
-Monthly data for Mumbai from [Ariel Karlinsky on github](https://github.com/akarlinsky/world_mortality/tree/main/local_mortality); yearly data from [MCGM vital statistics report](https://portal.mcgm.gov.in/irj/portal/anonymous/qlvitalstatsreport?guest_user=english).
+Mumbai: monthly data upto 2020 from [Ariel Karlinsky on github](https://github.com/akarlinsky/world_mortality/tree/main/local_mortality); yearly data from [MCGM vital statistics report](https://portal.mcgm.gov.in/irj/portal/anonymous/qlvitalstatsreport?guest_user=english). May 2017 and 2021 data reported by [Sumitra Debroy & Vijay V Singh in The Times of India](https://timesofindia.indiatimes.com/city/mumbai/112-more-all-cause-deaths-in-city-this-apr/articleshow/84004059.cms).
