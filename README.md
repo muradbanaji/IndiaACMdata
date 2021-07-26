@@ -10,7 +10,11 @@ Assam reported by [Arunabh Saikia in Scroll](https://scroll.in/article/997683/as
 
 Bihar reported by [Aruveettil Mariyam Alavi for NDTV](https://www.ndtv.com/india-news/bihar-saw-nearly-75-000-unaccounted-deaths-amid-2nd-covid-wave-data-shows-2467778).
 
+Chandigarh reported by [Srinivasan Ramani and Vikas Vasudeva in The Hindu](https://www.thehindu.com/news/national/coronavirus-chandigarh-bucks-trend-of-excess-deaths/article35372625.ece). More complete data available at [StatsOfIndia on github](https://github.com/statsofindia/india-mortality).
+
 Haryana reported by [Srinivasan Ramani in The Hindu](https://www.thehindu.com/news/national/excess-deaths-in-haryana-seven-times-official-covid-19-toll/article35329023.ece). More complete data available at [StatsOfIndia on github](https://github.com/statsofindia/india-mortality).
+
+Himachal Pradesh reported by [Srinivasan Ramani in The Hindu](https://www.thehindu.com/news/national/himachal-pradesh-excess-deaths-twice-the-official-covid-19-toll/article35430252.ece). More complete data available at [StatsOfIndia on github](https://github.com/statsofindia/india-mortality).
 
 Karnataka reported by [Sharath S. Srivatsa and Srinivasan Ramani in The Hindu](https://www.thehindu.com/news/national/excess-deaths-in-karnataka-nearly-six-times-official-covid-19-tally/article34870624.ece).
 
@@ -21,6 +25,8 @@ Madhya Pradesh reported by [by Rukmini S in Scroll](https://scroll.in/article/99
 Tamil Nadu reported by [Rukmini S in Scroll](https://scroll.in/article/997427/andhra-pradesh-saw-400-increase-in-deaths-in-may-tamil-nadu-saw-more-modest-excess-mortality).
 
 Uttar Pradesh reported by [Saurav Das for article14](https://www.article-14.com/post/untitled-60cf605395758).
+
+West Bengal reported by [Srinivasan Ramani in The Hindu](https://www.thehindu.com/news/national/other-states/excess-deaths-in-west-bengal-11-times-official-covid-19-tally/article35526895.ece). More complete data available at [StatsOfIndia on github](https://github.com/statsofindia/india-mortality).
 
 
 ## Cities
