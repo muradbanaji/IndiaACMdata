@@ -10,6 +10,8 @@ Assam reported by [Arunabh Saikia in Scroll](https://scroll.in/article/997683/as
 
 Bihar reported by [Aruveettil Mariyam Alavi for NDTV](https://www.ndtv.com/india-news/bihar-saw-nearly-75-000-unaccounted-deaths-amid-2nd-covid-wave-data-shows-2467778).
 
+Haryana reported by [Srinivasan Ramani in The Hindu](https://www.thehindu.com/news/national/excess-deaths-in-haryana-seven-times-official-covid-19-toll/article35329023.ece). More complete data available at [StatsOfIndia on github](https://github.com/statsofindia/india-mortality).
+
 Karnataka reported by [Sharath S. Srivatsa and Srinivasan Ramani in The Hindu](https://www.thehindu.com/news/national/excess-deaths-in-karnataka-nearly-six-times-official-covid-19-tally/article34870624.ece).
 
 Kerala reported by [Srinivasan Ramani in The Hindu](https://www.thehindu.com/news/national/excess-deaths-in-kerala-16-times-official-covid-19-toll/article34978628.ece).
