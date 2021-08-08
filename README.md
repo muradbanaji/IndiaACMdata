@@ -22,6 +22,8 @@ Kerala reported by [Srinivasan Ramani in The Hindu](https://www.thehindu.com/new
 
 Madhya Pradesh reported by [by Rukmini S in Scroll](https://scroll.in/article/996772/madhya-pradesh-saw-nearly-three-times-more-deaths-than-normal-after-second-wave-of-covid-19-struck).
 
+Rajasthan data from the state's Pehchan portal reported by [Srinivasan Ramani in The Hindu](https://www.thehindu.com/news/national/excess-deaths-in-rajasthan-are-five-times-the-official-covid-19-tally/article35118826.ece).
+
 Tamil Nadu reported by [Rukmini S in Scroll](https://scroll.in/article/997427/andhra-pradesh-saw-400-increase-in-deaths-in-may-tamil-nadu-saw-more-modest-excess-mortality).
 
 Uttar Pradesh reported by [Saurav Das for article14](https://www.article-14.com/post/untitled-60cf605395758).
