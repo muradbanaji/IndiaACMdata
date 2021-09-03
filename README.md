@@ -2,7 +2,7 @@
 
 All cause mortality data for Indian states and cities kindly shared by various journalists and others:
 
-## States
+## States and UTs
 
 Andhra Pradesh reported by [Rukmini S in Scroll](https://scroll.in/article/997427/andhra-pradesh-saw-400-increase-in-deaths-in-may-tamil-nadu-saw-more-modest-excess-mortality).
 
@@ -11,6 +11,8 @@ Assam reported by [Arunabh Saikia in Scroll](https://scroll.in/article/997683/as
 Bihar reported by [Aruveettil Mariyam Alavi for NDTV](https://www.ndtv.com/india-news/bihar-saw-nearly-75-000-unaccounted-deaths-amid-2nd-covid-wave-data-shows-2467778).
 
 Chandigarh reported by [Srinivasan Ramani and Vikas Vasudeva in The Hindu](https://www.thehindu.com/news/national/coronavirus-chandigarh-bucks-trend-of-excess-deaths/article35372625.ece). More complete data available at [StatsOfIndia on github](https://github.com/statsofindia/india-mortality).
+
+Delhi from municipal corporations via RTIs, reported by [Vignesh Radhakrishnan in The Hindu](https://www.thehindu.com/news/cities/Delhi/excess-deaths-in-delhi-two-times-official-covid-19-toll/article36279423.ece).
 
 Haryana reported by [Srinivasan Ramani in The Hindu](https://www.thehindu.com/news/national/excess-deaths-in-haryana-seven-times-official-covid-19-toll/article35329023.ece). More complete data available at [StatsOfIndia on github](https://github.com/statsofindia/india-mortality).
 
