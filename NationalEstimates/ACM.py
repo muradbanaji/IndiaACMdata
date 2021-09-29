@@ -93,7 +93,7 @@ for y in range(numregions):
                 dth19nat+=float(regional_data[y][reg19ind])/(float(regional_data[y][cov19ind])/100.0)
 
 logf=open("BasicData.csv", "w")
-logf.write("National data:\n")
+logf.write("National data:,\n")
 logf.write("Estimated 2019 population, " + "{:.0f}".format(pop19nat)+"\n")
 logf.write("Estimated 2020 population, " + "{:.0f}".format(pop20nat)+"\n")
 logf.write("Estimated yearly population growth, " + "{:.1f}".format(100*(float(pop20nat)/float(pop19nat)-1))+"%\n")
