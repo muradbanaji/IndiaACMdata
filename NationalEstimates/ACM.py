@@ -194,7 +194,7 @@ f.close()
 
 ### Loop
 f1 = open("simulations.csv", "w")
-f1.write ("May(m)=mortality based extrapolation for April 20-May 21\nJune(m)=mortality based extrapolation for April 20-June 21\nMay(p)=P-score based extrapolation for April 20-May 21\nJune(p)=P-score based extrapolation for April 20-June 21\n")
+f1.write ("May(m)=mortality based extrapolation for April 20-May 21,,,,\nJune(m)=mortality based extrapolation for April 20-June 21,,,,\nMay(p)=P-score based extrapolation for April 20-May 21,,,,\nJune(p)=P-score based extrapolation for April 20-June 21,,,,\n")
 for tt in range(7):
         #dthbase14=expected deaths; dthpand14=estimated total deaths
         dthraw14=[];dthbase14=[];dthpand14=[];xs14=[];xs14pc=[];Pscore14=[]
@@ -226,7 +226,7 @@ for tt in range(7):
         else:
                 dthrise_nat=0.0;basecor_nat=0.0;pandcor_nat=0.0;surge_diff=0.0
 
-        f1.write("\n*********\nSimulation " + repr(tt+1) + " (" + tag + ")\nexpected rise in deaths: " + repr(dthrise_nat*100) + "%\nbaseline registration shift: " + repr(basecor_nat*100) + "%\nadditional pandemic registration shift: " + repr(pandcor_nat*100) + "%\nvariation in mortality impact outside "+STAR12+": " + repr(surge_diff*100) + "%\n");
+        f1.write("\n*********\nSimulation " + repr(tt+1) + " (" + tag + "),,,,\nexpected rise in deaths: " + repr(dthrise_nat*100) + "%,,,,\nbaseline registration shift: " + repr(basecor_nat*100) + "%,,,,\nadditional pandemic registration shift: " + repr(pandcor_nat*100) + "%,,,,\nvariation in mortality impact outside "+STAR12+": " + repr(surge_diff*100) + "%,,,,\n");
 
         #We can, in theory, have different corrections in different states
         basecor=[];pandcor=[];dthrise=[]
@@ -264,10 +264,10 @@ for tt in range(7):
 
         xs14t=sum(xs14);xs14pct=xs14t/float(pop20t);Pscore14t=float(xs14t)/float(sum(dthbase14));
         xsjunet=sum(xsjune);xsjunepct=float(xsjunet)/float(junepop);Pscorejunet=float(xsjunet)/float(sum(dthbasejune));
-        f1.write("April 2020-May 2021 P-score in "+STAR12+": " + "{:.1f}".format(Pscore14t*100.0) + "%"+"\n");
-        f1.write("April 2020-May 2021 excess mortality in "+STAR12+": " + "{:.2f}".format(float(xs14pct)) + " per 1K"+"\n");
-        f1.write("June 2021 P-score in available data: " + "{:.1f}".format(Pscorejunet*100.0) + "%"+"\n");
-        f1.write("June 2021 excess mortality in available data: " + "{:.2f}".format(float(xsjunepct)) + " per 1K"+"\n");
+        f1.write("April 2020-May 2021 P-score in "+STAR12+": " + "{:.1f}".format(Pscore14t*100.0) + "%"+",,,,\n");
+        f1.write("April 2020-May 2021 excess mortality in "+STAR12+": " + "{:.2f}".format(float(xs14pct)) + " per 1K"+",,,,\n");
+        f1.write("June 2021 P-score in available data: " + "{:.1f}".format(Pscorejunet*100.0) + "%"+",,,,\n");
+        f1.write("June 2021 excess mortality in available data: " + "{:.2f}".format(float(xsjunepct)) + " per 1K"+",,,,\n");
         
         
         #f = open("StateOutput1.csv", "w")
@@ -298,12 +298,12 @@ for tt in range(7):
         xs14natCOV19=float(xs14nat)/COV19May;xs15natCOV19=float(xs15nat)/COV19June;
         xs14natPCOV19=float(xs14natP)/COV19May;xs15natPCOV19=float(xs15natP)/COV19June;
 
-        f1.write ("\tMay(m)\tJune(m)\tMay(p)\tJune(p)\n")
-        f1.write ("Excess\t" + repr(xs14nat) + "\t" + repr(xs15nat) + "\t" + repr(xs14natP) + "\t" + repr(xs15natP)+"\n")
-        f1.write ("Excess per 1K\t" + "{:.1f}".format(xs14natpc) + "\t" + "{:.1f}".format(xs15natpc) + "\t" +  "{:.1f}".format(xs14natPpc) + "\t" +  "{:.1f}".format(xs15natPpc)+"\n");
-        f1.write ("P-score\t" + "{:.0f}".format(xs14natsurge) + "\t" + "{:.0f}".format(xs15natsurge) + "\t" + "{:.0f}".format(xs14natPsurge) + "\t" + "{:.0f}".format(xs15natPsurge)+"\n");
-        f1.write ("Excess as a % of yearly deaths\t" + "{:.0f}".format(xs14natPY) + "\t" + "{:.0f}".format(xs15natPY) + "\t" + "{:.0f}".format(xs14natPPY) + "\t" + "{:.0f}".format(xs15natPPY)+"\n");
-        f1.write ("Ratio of excess to COVID-19 deaths\t" + "{:.1f}".format(xs14natCOV19) + "\t" + "{:.1f}".format(xs15natCOV19) + "\t" + "{:.1f}".format(xs14natPCOV19) + "\t" + "{:.1f}".format(xs15natPCOV19)+"\n");
+        f1.write (",May(m),June(m),May(p),June(p)\n")
+        f1.write ("Excess," + repr(xs14nat) + "," + repr(xs15nat) + "," + repr(xs14natP) + "," + repr(xs15natP)+"\n")
+        f1.write ("Excess per 1K," + "{:.1f}".format(xs14natpc) + "," + "{:.1f}".format(xs15natpc) + "," +  "{:.1f}".format(xs14natPpc) + "," +  "{:.1f}".format(xs15natPpc)+"\n");
+        f1.write ("P-score," + "{:.0f}".format(xs14natsurge) + "," + "{:.0f}".format(xs15natsurge) + "," + "{:.0f}".format(xs14natPsurge) + "," + "{:.0f}".format(xs15natPsurge)+"\n");
+        f1.write ("Excess as a % of yearly deaths," + "{:.0f}".format(xs14natPY) + "," + "{:.0f}".format(xs15natPY) + "," + "{:.0f}".format(xs14natPPY) + "," + "{:.0f}".format(xs15natPPY)+"\n");
+        f1.write ("Ratio of excess to COVID-19 deaths," + "{:.1f}".format(xs14natCOV19) + "," + "{:.1f}".format(xs15natCOV19) + "," + "{:.1f}".format(xs14natPCOV19) + "," + "{:.1f}".format(xs15natPCOV19)+"\n");
 
 ### End of loop
         
