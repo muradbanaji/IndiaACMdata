@@ -226,7 +226,7 @@ for tt in range(7):
         else:
                 dthrise_nat=0.0;basecor_nat=0.0;pandcor_nat=0.0;surge_diff=0.0
 
-        f1.write("\n*********\nSimulation " + repr(tt+1) + " (" + tag + "),,,,\nexpected rise in deaths: " + repr(dthrise_nat*100) + "%,,,,\nbaseline registration shift: " + repr(basecor_nat*100) + "%,,,,\nadditional pandemic registration shift: " + repr(pandcor_nat*100) + "%,,,,\nvariation in mortality impact outside "+STAR12+": " + repr(surge_diff*100) + "%,,,,\n");
+        f1.write(",,,,\n*********,,,,\nSimulation " + repr(tt+1) + " (" + tag + "),,,,\nexpected rise in deaths: " + repr(dthrise_nat*100) + "%,,,,\nbaseline registration shift: " + repr(basecor_nat*100) + "%,,,,\nadditional pandemic registration shift: " + repr(pandcor_nat*100) + "%,,,,\nvariation in mortality impact outside "+STAR12+": " + repr(surge_diff*100) + "%,,,,\n");
 
         #We can, in theory, have different corrections in different states
         basecor=[];pandcor=[];dthrise=[]
