@@ -54,11 +54,11 @@ for x in range(len(regional_data_desc)):
                 cov18ind=x
         elif regional_data_desc[x]=="2019 estimated coverage":
                 cov19ind=x
-        elif regional_data_desc[x]=="pop19":
+        elif regional_data_desc[x]=="2019 estimated population (1000)":
                 pop19ind=x
-        elif regional_data_desc[x]=="pop20":
+        elif regional_data_desc[x]=="2020 estimated population (1000)":
                 pop20ind=x
-        elif regional_data_desc[x]=="pop21":
+        elif regional_data_desc[x]=="2021 estimated population (1000)":
                 pop21ind=x
 
 #National population
