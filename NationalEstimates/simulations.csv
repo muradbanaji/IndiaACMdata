@@ -1,0 +1,123 @@
+May(m)=mortality based extrapolation for April 20-May 21
+June(m)=mortality based extrapolation for April 20-June 21
+May(p)=P-score based extrapolation for April 20-May 21
+June(p)=P-score based extrapolation for April 20-June 21
+
+*********
+Simulation 1 (baseline)
+expected rise in deaths: 0.0%
+baseline registration shift: 0.0%
+additional pandemic registration shift: 0.0%
+variation in mortality impact outside STARS: 0.0%
+April 2020-May 2021 P-score in STARS: 27.8%
+April 2020-May 2021 excess mortality in STARS: 2.09 per 1K
+June 2021 P-score in available data: 123.2%
+June 2021 excess mortality in available data: 0.72 per 1K
+	May(m)	June(m)	May(p)	June(p)
+Excess	2811702	3785799	2869786	3776980
+Excess per 1K	2.1	2.8	2.1	2.8
+P-score	27	34	28	34
+Excess as a % of yearly deaths	32	43	32	43
+Ratio of excess to COVID-19 deaths	8.5	9.5	8.6	9.5
+
+*********
+Simulation 2 (optimistic)
+expected rise in deaths: 2.0%
+baseline registration shift: 0.0%
+additional pandemic registration shift: 5.0%
+variation in mortality impact outside STARS: -20.0%
+April 2020-May 2021 P-score in STARS: 20.3%
+April 2020-May 2021 excess mortality in STARS: 1.55 per 1K
+June 2021 P-score in available data: 114.6%
+June 2021 excess mortality in available data: 0.69 per 1K
+	May(m)	June(m)	May(p)	June(p)
+Excess	1921717	2770778	1960005	2750182
+Excess per 1K	1.4	2.1	1.5	2.0
+P-score	18	25	19	24
+Excess as a % of yearly deaths	21	31	22	31
+Ratio of excess to COVID-19 deaths	5.8	6.9	5.9	6.9
+
+*********
+Simulation 3 (pessimistic)
+expected rise in deaths: 0.0%
+baseline registration shift: -5.0%
+additional pandemic registration shift: -5.0%
+variation in mortality impact outside STARS: 20.0%
+April 2020-May 2021 P-score in STARS: 34.6%
+April 2020-May 2021 excess mortality in STARS: 2.73 per 1K
+June 2021 P-score in available data: 134.9%
+June 2021 excess mortality in available data: 0.83 per 1K
+	May(m)	June(m)	May(p)	June(p)
+Excess	3973408	5187703	4057970	5189556
+Excess per 1K	2.9	3.9	3.0	3.9
+P-score	37	45	37	45
+Excess as a % of yearly deaths	43	56	44	56
+Ratio of excess to COVID-19 deaths	12.0	13.0	12.2	13.0
+
+*********
+Simulation 4 (small mortality rise)
+expected rise in deaths: 1.0%
+baseline registration shift: 0.0%
+additional pandemic registration shift: 0.0%
+variation in mortality impact outside STARS: 0.0%
+April 2020-May 2021 P-score in STARS: 26.6%
+April 2020-May 2021 excess mortality in STARS: 2.01 per 1K
+June 2021 P-score in available data: 121.0%
+June 2021 excess mortality in available data: 0.72 per 1K
+	May(m)	June(m)	May(p)	June(p)
+Excess	2710679	3676870	2766676	3666507
+Excess per 1K	2.0	2.7	2.1	2.7
+P-score	26	33	27	33
+Excess as a % of yearly deaths	30	41	31	41
+Ratio of excess to COVID-19 deaths	8.2	9.2	8.3	9.2
+
+*********
+Simulation 5 (small overestimation of baseline coverage)
+expected rise in deaths: 0.0%
+baseline registration shift: -1.0%
+additional pandemic registration shift: 0.0%
+variation in mortality impact outside STARS: 0.0%
+April 2020-May 2021 P-score in STARS: 27.8%
+April 2020-May 2021 excess mortality in STARS: 2.11 per 1K
+June 2021 P-score in available data: 123.2%
+June 2021 excess mortality in available data: 0.73 per 1K
+	May(m)	June(m)	May(p)	June(p)
+Excess	2840104	3824043	2898775	3815134
+Excess per 1K	2.1	2.8	2.2	2.8
+P-score	27	34	28	34
+Excess as a % of yearly deaths	32	43	32	43
+Ratio of excess to COVID-19 deaths	8.6	9.6	8.7	9.5
+
+*********
+Simulation 6 (small decrease in pandemic coverage)
+expected rise in deaths: 0.0%
+baseline registration shift: 0.0%
+additional pandemic registration shift: -1.0%
+variation in mortality impact outside STARS: 0.0%
+April 2020-May 2021 P-score in STARS: 29.1%
+April 2020-May 2021 excess mortality in STARS: 2.18 per 1K
+June 2021 P-score in available data: 125.4%
+June 2021 excess mortality in available data: 0.74 per 1K
+	May(m)	June(m)	May(p)	June(p)
+Excess	2942145	3934062	3002924	3926714
+Excess per 1K	2.2	2.9	2.2	2.9
+P-score	29	36	29	36
+Excess as a % of yearly deaths	33	45	34	44
+Ratio of excess to COVID-19 deaths	8.9	9.8	9.0	9.8
+
+*********
+Simulation 7 (slightly higher mortality impact outside STARS)
+expected rise in deaths: 0.0%
+baseline registration shift: 0.0%
+additional pandemic registration shift: 0.0%
+variation in mortality impact outside STARS: 1.0%
+April 2020-May 2021 P-score in STARS: 27.8%
+April 2020-May 2021 excess mortality in STARS: 2.09 per 1K
+June 2021 P-score in available data: 123.2%
+June 2021 excess mortality in available data: 0.72 per 1K
+	May(m)	June(m)	May(p)	June(p)
+Excess	2823111	3801161	2881526	3792431
+Excess per 1K	2.1	2.8	2.1	2.8
+P-score	27	34	28	34
+Excess as a % of yearly deaths	32	43	33	43
+Ratio of excess to COVID-19 deaths	8.5	9.5	8.7	9.5
