@@ -12,4 +12,6 @@ The Python script "[ACM.py](https://github.com/muradbanaji/IndiaACMdata/blob/mas
 
 "[state_wise_monthly_cases.csv](https://github.com/muradbanaji/IndiaACMdata/blob/master/NationalEstimates/state_wise_monthly_cases.csv)" and "[state_wise_monthly_dths.csv](https://github.com/muradbanaji/IndiaACMdata/blob/master/NationalEstimates/state_wise_monthly_dths.csv)" are official COVID-19 case- and death-counts using data from [covid19india.org](https://www.covid19india.org/). In each file, the column "12 states" gives the total from Andhra Pradesh, Bihar, Haryana, Himachal Pradesh, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Punjab, Rajasthan, Tamil Nadu and West Bengal.
 
+"[registration_completion.xlsx](https://github.com/muradbanaji/IndiaACMdata/blob/master/NationalEstimates/registration_completion.xlsx)" includes data on NFHS and CRS estimates of registration completion.
+
 "[IndiaIFR.xlsx](https://github.com/muradbanaji/IndiaACMdata/blob/master/NationalEstimates/IndiaIFR.xlsx)" includes the data and calculations used to estimate India's COVID-19 infection fatality rate using data from [Levin et al](https://link.springer.com/article/10.1007/s10654-020-00698-1), and [O'Driscoll et al](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-020-2918-0/MediaObjects/41586_2020_2918_MOESM1_ESM.pdf).
