@@ -192,6 +192,37 @@ for x in range(numstates):
 f.write("All," + repr(reg19t) + "," + "{:.1f}".format(100*float(reg19t)/float(dth19t)) + "," + repr(dth19t) + "," + repr(dat19t) + "," + "{:.1f}".format(100.0*cov19datt) +"\n")
 f.close()
 
+#monthly excesses (simple)
+fm = open("MonthlyExcessRel2019.csv", "w")
+fm.write(",")
+for x in range(numstates):
+        fm.write(statdat[x+1]+",")
+fm.write("STAR12 xs (mortality-based extrapolation for June 21),national xs (mortality-based extrapolation)\n")
+for y in range(62,77):#March 2020
+        tot=0
+        fm.write (months[y][0]+",")
+        #base_delay=24 if y>72 else 12
+        if y>=72:
+                base_delay=24
+        else:
+                base_delay=12
+        for x in range(numstates):
+                fm.write ("{:.0f}".format((float(months[y][x+1])-float(months[y-base_delay][x+1]))/cov19dat[x])+",")
+                tot+=(float(months[y][x+1])-float(months[y-base_delay][x+1]))/cov19dat[x]
+        fm.write("{:.0f}".format(tot)+","+"{:.0f}".format(tot*float(pop20nat)/float(pop20t))+"\n")
+
+fm.write (months[77][0]+",")
+tot=0
+for x in range(numstates):
+        if(months[77][x+1]!=""):
+                fm.write ("{:.0f}".format((float(months[77][x+1])-float(months[77-24][x+1]))/cov19dat[x])+",")
+                tot+=(float(months[77][x+1])-float(months[77-24][x+1]))/cov19dat[x];
+        else:
+                fm.write (",")
+fm.write("{:.0f}".format(tot*float(pop20t)/float(junepop))+","+"{:.0f}".format(tot*float(pop20nat)/float(junepop))+"\n")
+
+fm.close()
+
 ### Loop
 f1 = open("simulations.csv", "w")
 f1.write ("May(m)=mortality based extrapolation for April 20-May 21,,,,\nJune(m)=mortality based extrapolation for April 20-June 21,,,,\nMay(p)=P-score based extrapolation for April 20-May 21,,,,\nJune(p)=P-score based extrapolation for April 20-June 21,,,,\n")
