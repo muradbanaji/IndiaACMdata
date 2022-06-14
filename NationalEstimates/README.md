@@ -1,3 +1,5 @@
+This repository contains data and code associated with estimates of pandemic excess mortality in India in the preprint "[Estimates of pandemic excess mortality in India based on civil registration data](https://www.medrxiv.org/content/10.1101/2021.09.30.21264376v1)". 
+
 "[IndiaRegCoverPop.csv](https://github.com/muradbanaji/IndiaACMdata/blob/master/NationalEstimates/IndiaRegCoverPop.csv)" provides national and sub-national information on registered deaths and registration coverage drawn from the [2019 CRS report](https://crsorgi.gov.in/web/uploads/download/CRS%202019%20report.pdf), and population projections drawn from the [National Commission on Population](https://nhm.gov.in/New_Updates_2018/Report_Population_Projection_2019.pdf). 
 
 "[TwelveStates.csv](https://github.com/muradbanaji/IndiaACMdata/blob/master/NationalEstimates/TwelveStates.csv)" contains monthly death registration data from Andhra Pradesh, Bihar, Haryana, Himachal Pradesh, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Punjab, Rajasthan, Tamil Nadu and West Bengal.
@@ -12,8 +14,13 @@ The Python script "[ACM.py](https://github.com/muradbanaji/IndiaACMdata/blob/mas
 
 "[MonthlyExcessRel2019.csv](https://github.com/muradbanaji/IndiaACMdata/blob/master/NationalEstimates/MonthlyExcessRel2019.csv)"  is an output file created by [ACM.py](https://github.com/muradbanaji/IndiaACMdata/blob/master/NationalEstimates/ACM.py). It includes monthly excess deaths relative to 2019 levels, assuming no change in registration levels or baseline mortality.
 
+"[Excess12MC.cc](https://github.com/muradbanaji/IndiaACMdata/blob/master/NationalEstimates/Excess12MC.cc)" is C++ code to generate confidence intervals on the excess mortality estimates by allowing distributions on pre-pandemic registration coverage in each state, change in registration coverage in each state, and the relative mortality impact in states for which data is not used. The code is also used to generate simulations where individual states are omitted from the analysis as a robustness check on the estimates. 
+
+"[Allcomps.csv](https://github.com/muradbanaji/IndiaACMdata/blob/master/NationalEstimates/AllComps.csv)" is the abbreviated output from one simulation of "[Excess12MC.cc](https://github.com/muradbanaji/IndiaACMdata/blob/master/NationalEstimates/Excess12MC.cc)", giving the median estimate of national excess mortality, along with lower and upper confidence intervals using data from all 12 states (first column), and each subset of 11 states (remaining 12 columns). 
+
 "[state_wise_monthly_cases.csv](https://github.com/muradbanaji/IndiaACMdata/blob/master/NationalEstimates/state_wise_monthly_cases.csv)" and "[state_wise_monthly_dths.csv](https://github.com/muradbanaji/IndiaACMdata/blob/master/NationalEstimates/state_wise_monthly_dths.csv)" are official COVID-19 case- and death-counts using data from [covid19india.org](https://www.covid19india.org/). In each file, the column "12 states" gives the total from Andhra Pradesh, Bihar, Haryana, Himachal Pradesh, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Punjab, Rajasthan, Tamil Nadu and West Bengal.
 
-"[registration_completion.xlsx](https://github.com/muradbanaji/IndiaACMdata/blob/master/NationalEstimates/registration_completion.xlsx)" includes data on NFHS and CRS estimates of registration completion.
+"[NFHS-SRS-2018CompletionEstimates.xlsx](https://github.com/muradbanaji/IndiaACMdata/blob/master/NationalEstimates/NFHS-SRS-2018CompletionEstimates.xlsx)" contains estimates of registration completion in 2018 uding SRS-CRS data on the one hand, and NFHS-5 data on the other. The NFHS-5 data can be used to estimate national CDR in 2018 at 7.2 per 1K. 
+
 
 "[IndiaIFR.xlsx](https://github.com/muradbanaji/IndiaACMdata/blob/master/NationalEstimates/IndiaIFR.xlsx)" includes the data and calculations used to estimate India's COVID-19 infection fatality rate using data from [Levin et al](https://link.springer.com/article/10.1007/s10654-020-00698-1), and [O'Driscoll et al](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-020-2918-0/MediaObjects/41586_2020_2918_MOESM1_ESM.pdf).
